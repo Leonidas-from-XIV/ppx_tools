@@ -39,7 +39,7 @@
  (libraries ppx_tools ast_lifter))
 
 (install
- (section lib)
+ (section bin)
  (files
   (ppx_metaquot.exe as ppx_metaquot)
   (rewriter.exe as rewriter)
