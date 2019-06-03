@@ -39,9 +39,9 @@
  (libraries ppx_tools ast_lifter))
 
 (install
- (section bin)
+ (section libexec)
  (files
-  (ppx_metaquot.exe as ../lib/ppx_tools/ppx_metaquot)
-  (rewriter.exe as ../lib/ppx_tools/rewriter)
-  (dumpast.exe as ../lib/ppx_tools/dumpast)
-  (genlifter.exe as ../lib/ppx_tools/genlifter)))
+  (ppx_metaquot.exe as ppx_metaquot)
+  (rewriter.exe as rewriter)
+  (dumpast.exe as dumpast)
+  (genlifter.exe as genlifter)))
